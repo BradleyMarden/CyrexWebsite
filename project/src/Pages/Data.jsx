@@ -9,7 +9,7 @@ export const homeObjOne1 = {
   topLine: "Cyrex Studios2",
   headline: "Lead Generation Specialist for Online Business",
   description:
-    "Weeee help business owners increase their revenue. Our team of unique specialist can help you acheive your business goals.",
+    "Weeeeeee help business owners increase their revenue. Our team of unique specialist can help you acheive your business goals.",
   start: "",
   img: require("../Pages/images/svg-1.svg").default,
   alt: "Image",
