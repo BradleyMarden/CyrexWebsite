@@ -6,7 +6,7 @@ export const homeObjOne1 = {
   lightText: true,
   lightTextDesc: true,
   buttonLabel: "test Started",
-  topLine: "Cyrex Studios1",
+  topLine: "Cyrex Studios2",
   headline: "Lead Generation Specialist for Online Business",
   description:
     "We help business owners increase their revenue. Our team of unique specialist can help you acheive your business goals.",
