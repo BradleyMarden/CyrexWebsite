@@ -4,25 +4,49 @@ import {FaMagento} from "react-icons/fa"
 import {Link} from "react-router-dom"
 
 export const Nav = styled.nav`
-  background: #101522;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  position: sticky;
-  top: 0;
-  z-index: 999;
+    background: #f5b715;
+    height: 80px;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0px 3px 5px #626262;
 `;
 
 export const NavbarContainer = styled(Conatainer)`
     display: flex;
     justify-content: space-between;
     height: 80px;
-
+    flex-direction: row;
+    align-items: center;
     ${Conatainer}
 `
-
+export const NavbarTitleCont = styled.div`
+    font-size: 2.0rem;
+    color: #dae4e8;
+    font-weight: bolder;
+    font-style: normal;
+    flex-direction: row;
+    display: grid;
+    grid-auto-flow: column; /* Arrange items in a row */
+    justify-content: start;
+`;
+export const NavbarTitle = styled.div`
+    font-size: 2.0rem;
+    color: #dae4e8;
+    font-weight: bolder;
+    font-style: normal;
+    width: fit-content;
+    padding-left: 0.1rem;
+`;
+export const NavbarTitlePre =  styled.div`
+    font-size: 2.0rem;
+    color: #dae4e8;
+    font-weight: normal;
+    font-style: normal;
+    width: fit-content;
+    
+`
 export const NavLogo = styled(Link)`
     color: #fff;
     justify-self: flex-start;
@@ -32,9 +56,7 @@ export const NavLogo = styled(Link)`
     display: flex;
     align-items: center;
 `
-export const NavIcon = styled(FaMagento)`
-    margin-right: 0.5rem;
-`
+
 export const MobileIcon = styled.div`
     display: none;
 

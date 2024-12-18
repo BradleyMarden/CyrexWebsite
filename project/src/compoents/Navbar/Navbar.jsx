@@ -12,7 +12,7 @@ import {
   NavItem,
   NavLinks,
   NavItemBtn,
-  NavBtnLink,
+  NavBtnLink, NavbarTitle, NavbarTitlePre, NavbarTitleCont,
 } from "./Navbar.elements";
 
 const Navbar = () => {
@@ -33,13 +33,18 @@ const Navbar = () => {
   window.addEventListener("resize", showButton);
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff" }}>
+      <IconContext.Provider value={{ color: "#dae4e8" }}>
         <Nav>
           <NavbarContainer>
-            <NavLogo to="/">
-              <NavIcon />
-              ULTRA
-            </NavLogo>
+            <NavbarTitleCont>
+              <NavbarTitlePre to="/">
+                Cyrex
+              </NavbarTitlePre>
+              <NavbarTitle to="/">
+                Studios
+              </NavbarTitle>
+            </NavbarTitleCont>
+              
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>

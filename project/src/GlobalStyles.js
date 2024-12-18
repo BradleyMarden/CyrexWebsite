@@ -5,7 +5,10 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-        font-family: "Source Sans Pro",sans-serif;
+        font-family: "Lexend", serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
 
     }
 
@@ -19,7 +22,7 @@ export const Conatainer = styled.div`
   padding-left: 50px;
   padding-right: 50px;
 
-  @media screen and (max-width: 991px) {
+    @media screen and (max-width: 991px) {
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -27,7 +30,7 @@ export const Conatainer = styled.div`
 
 export const Button = styled.button`
   border-radius: 4px;
-  background: ${({ primary }) => (primary ? "#4859F7" : "#0467FB")};
+  background: ${({ primary }) => (primary ? "#dae4e8" : "#ffffff")};
   white-space: nowrap;
   padding: ${({ big }) => (big ? "12px 64px" : "10px 20px")};
   color: #fff;
@@ -35,11 +38,11 @@ export const Button = styled.button`
   outline: none;
   border: none;
   cursor: pointer;
-
+    color: black;
   &:hover {
     transition: all 0.3s ease-out;
     background: #fff;
-    background: ${({ primary }) => (primary ? "#0467FB" : "#4859F7")};
+    background: ${({ primary }) => (primary ? "#ffffff" : "#dae4e8")};
   }
 
   @media screen and (max-width: 960px){

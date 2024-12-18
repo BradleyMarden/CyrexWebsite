@@ -26,7 +26,7 @@ const InfoSection = ({
   start,
   img,
   alt,
-  
+    size
 }) => {
   return (
     <>
@@ -34,6 +34,16 @@ const InfoSection = ({
         <Conatainer>
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
+              <TextWrapper>
+                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
+                <Heading lightText={lightText}>{headline}</Heading>
+                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+                <Link to="/sign-up">
+                  <Button big fontBig primary={primary}>
+                    {buttonLabel}
+                  </Button>
+                </Link>
+              </TextWrapper>
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>

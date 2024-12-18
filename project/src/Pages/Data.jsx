@@ -5,14 +5,15 @@ export const homeObjOne1 = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  buttonLabel: "test Started",
-  topLine: "Cyrex Studios2",
+  buttonLabel: "Get Started",
+  topLine: "Marketing Agency",
   headline: "Lead Generation Specialist for Online Business",
   description:
-    "crunch help business owners increase their revenue. Our team of unique specialist can help you acheive your business goals.",
+    "We help business owners increase their revenue. Our team of unique specialist can help you acheive your business goals.",
   start: "",
-  img: require("../Pages/images/svg-1.svg").default,
+  img: require("../Pages/images/dino.svg").default,
   alt: "Image",
+  size: 2000
 };
 export const homeObjOne2 = {
   lightBg: true,
