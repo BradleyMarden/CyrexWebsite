@@ -56,7 +56,7 @@ const Navbar = () => {
                 <NavLinks to="/services">Services</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/PrivacyPolicy">PrivacyPolicy</NavLinks>
+                <NavLinks to="/privacyPolicy">PrivacyPolicy</NavLinks>
               </NavItem>
               <NavItemBtn>
                 {button ? (

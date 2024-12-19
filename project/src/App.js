@@ -11,6 +11,7 @@ import Home from "./Pages/HomePage/Home";
 import Services from "./Pages/Services/Services";
 import Products from "./Pages/Products/Products";
 import Footer from "./compoents/Footer/Footer";
+import PrivacyPolicy from "./compoents/PrivacyPolicy/PrivacyPolicy";
 import ScrollToTop from "./compoents/ScrollToTop";
 
 function App() {
@@ -22,8 +23,8 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/services" component={Services} />
-        <Route path="/products" component={Products} />
-
+          <Route path="/products" component={Products} />
+          <Route path="/privacyPolicy" component={PrivacyPolicy} />
       </Switch>
       <Footer />
     </Router>
