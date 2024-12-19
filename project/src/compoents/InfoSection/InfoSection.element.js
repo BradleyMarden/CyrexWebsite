@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import img from './../../Pages/images/BG10.png';
+import img2 from './../../Pages/images/lowpoly.png';
 export const InfoSecTop = styled.div`
     color: #fff;
     padding: 160px 0;
@@ -15,6 +16,19 @@ export const InfoSecTopImg = styled.div`
     box-shadow: 0px 0px 10px #2f2e2e;
     position: relative;
     background-image: url(${img});
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f7a721;
+`;
+export const InfoSecTopImg2 = styled.div`
+    
+    color: #fff;
+    padding: 160px 0;
+    background: ${({lightBg}) => (lightBg ? '#f7a721' : '#dae4e8')};
+    box-shadow: 0px 0px 10px #2f2e2e;
+    position: relative;
+    background-image: url(${img2});
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

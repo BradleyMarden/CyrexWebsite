@@ -10,7 +10,7 @@ import {
   Heading,
   Subtitle,
   ImgWrapper,
-  Img, InfoSecTop,
+  Img, InfoSecTop, InfoSecTopImg2,
 } from "./InfoSection.element";
 const InfoSection = ({
   primary,
@@ -30,7 +30,7 @@ const InfoSection = ({
 }) => {
   return (
     <>
-      <InfoSec lightBg={lightBg}>
+      <InfoSecTopImg2 lightBg={lightBg}>
         <Conatainer>
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
@@ -52,7 +52,7 @@ const InfoSection = ({
             </InfoColumn>
           </InfoRow>
         </Conatainer>
-      </InfoSec>
+      </InfoSecTopImg2>
     </>
   );
 };

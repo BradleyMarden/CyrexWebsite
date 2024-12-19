@@ -11,11 +11,12 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 999;
-    box-shadow: 0px 3px 5px #626262;
+    box-shadow: 0px 1px 10px #343434;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #ff7000;
-    //background-image: url(${img});
+    background: linear-gradient(-2deg, #ffc022, #ff8523);
+    // background-color: #ff7000;
+        //background-image: url(${img});
 `;
 
 export const NavbarContainer = styled(Conatainer)`
@@ -27,30 +28,29 @@ export const NavbarContainer = styled(Conatainer)`
     ${Conatainer}
 `
 export const NavbarTitleCont = styled.div`
-    font-size: 2.0rem;
-    color: #dae4e8;
-    font-weight: bolder;
-    font-style: normal;
     flex-direction: row;
     display: grid;
     grid-auto-flow: column; /* Arrange items in a row */
-    justify-content: start;
 `;
 export const NavbarTitle = styled.div`
-    font-size: 2.0rem;
+    font-size: 1vw;
+    padding-top: .21rem;
     color: #dae4e8;
     font-weight: bolder;
     font-style: normal;
     width: fit-content;
-    padding-left: 0.1rem;
+    text-align: center;
+    
 `;
 export const NavbarTitlePre =  styled.div`
-    font-size: 2.0rem;
+    font-size: 1.15vw;
+    padding-right: .1rem;
     color: #dae4e8;
     font-weight: normal;
     font-style: normal;
     width: fit-content;
-    
+
+text-align: center;
 `
 export const NavLogo = styled(Link)`
     color: #fff;

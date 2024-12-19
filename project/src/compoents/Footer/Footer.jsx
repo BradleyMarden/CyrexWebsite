@@ -85,7 +85,7 @@ const Footer = () => {
               Cyrex
             </NavbarTitlePre>
             <NavbarTitle to="/">
-              Studios
+              STUDIOS
             </NavbarTitle>
           </NavbarTitleCont>
           <WebsiteRights>cyrexstudios © 2024</WebsiteRights>
