@@ -40,14 +40,6 @@ const InfoSectionTop = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                 <Link to="/sign-up">
-                  
-                </Link>
-              </TextWrapper>
-              <TextWrapper>
-                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to="/sign-up">
                 </Link>
               </TextWrapper>
             </InfoColumn>
