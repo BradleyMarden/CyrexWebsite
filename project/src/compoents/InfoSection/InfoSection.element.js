@@ -32,7 +32,6 @@ export const InfoRow = styled.div`
   flex-wrap: wrap-reverse;
   align-items: center;
   flex-direction: ${({imgStart}) =>(imgStart ? 'row-reverse' : 'row')};
-    outline: 2px dashed blue;
 `;
 export const InfoRowPolicy = styled.div`
 `;
