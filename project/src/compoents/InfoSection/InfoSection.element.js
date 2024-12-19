@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from './../../Pages/images/bg.png';
+import img from './../../Pages/images/BG10.png';
 export const InfoSecTop = styled.div`
     color: #fff;
     padding: 160px 0;
@@ -17,7 +17,8 @@ export const InfoSecTopImg = styled.div`
     background-image: url(${img});
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 150%;
+    background-color: #f7a721;
 `;
 export const InfoSec = styled.div`
     color: #fff;
@@ -31,9 +32,10 @@ export const InfoRow = styled.div`
   flex-wrap: wrap-reverse;
   align-items: center;
   flex-direction: ${({imgStart}) =>(imgStart ? 'row-reverse' : 'row')};
-
+    outline: 2px dashed blue;
 `;
-
+export const InfoRowPolicy = styled.div`
+`;
 export const InfoColumn = styled.div`
     margin-bottom: 15px;
     padding-right: 15px;
@@ -59,6 +61,14 @@ export const TextWrapper = styled.div`
         padding-bottom: 65px;
     }
 `;
+export const TextWrapperPrivacy = styled.div`
+    padding-top: 0;
+    padding-bottom:60px;
+    text-align: center;
+    @media screen and (max-width:768px){
+        padding-bottom: 65px;
+    }
+`;
 //26313b
 export const TopLine = styled.div`
     color: ${({lightTopLine})=>(lightTopLine ? "#4e5860":"#26313b")};
@@ -76,7 +86,28 @@ export const Heading = styled.h1`
 
 
 `;
+export const HeadingPrivacy = styled.h1`
+    margin-bottom: 24px;
+    font-size:40px;
+    line-height: 1.1;
+    color:${({lightText})=>(lightText ? '#26313b' : '#26313b')};
+    text-align: center;
+`;
 
+export const SubHeadingPrivacy = styled.h1`
+    margin-bottom: 24px;
+    font-size:22px;
+    line-height: 1.1;
+    color:${({lightText})=>(lightText ? '#26313b' : '#26313b')};
+    text-align: center;
+`;
+export const SubtitlePrivacy = styled.p`
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: ${({ lightTextDesc }) => (lightTextDesc ? "#4e5860":"#26313b")};
+    text-align: center;
+`;
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;

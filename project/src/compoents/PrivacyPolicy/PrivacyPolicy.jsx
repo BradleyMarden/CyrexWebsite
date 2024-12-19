@@ -6,15 +6,15 @@ import { IconContext } from "react-icons/lib";
 
 import {Link} from "react-router-dom";
 import {
-  InfoSec,
-  InfoRow,
-  InfoColumn,
-  TextWrapper,
-  TopLine,
-  Heading,
-  Subtitle,
-  ImgWrapper,
-  Img, InfoSecTop,
+    InfoSec,
+    InfoRow,
+    InfoColumn,
+    TextWrapper,
+    TopLine,
+    Heading,
+    Subtitle,
+    ImgWrapper,
+    Img, InfoSecTop, TextWrapperPrivacy, HeadingPrivacy, InfoRowPolicy, SubtitlePrivacy, SubHeadingPrivacy,
 } from "./../InfoSection/InfoSection.element";
 
 const PrivacyPolicySection = ({
@@ -27,7 +27,16 @@ const PrivacyPolicySection = ({
                    buttonLabel,
                    topLine,
                    headline,
-                   description,
+                   description1,
+                    description2,
+                    description3,
+                    description4,
+                    description5,
+                    description6,
+                    description7,
+                    description8,
+                    description9,
+                    description10,
                    start,
                    img,
                    alt,
@@ -36,25 +45,31 @@ const PrivacyPolicySection = ({
   return (
       <InfoSec lightBg={lightBg}>
         <Conatainer>
-          <InfoRow imgStart={imgStart}>
-            <InfoColumn>
-              <TextWrapper>
-                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to="/sign-up">
-                  <Button big fontBig primary={primary}>
-                    {buttonLabel}
-                  </Button>
-                </Link>
-              </TextWrapper>
-            </InfoColumn>
-            <InfoColumn>
-              <ImgWrapper start={start}>
-                <Img src={img} alt={alt}/>
-              </ImgWrapper>
-            </InfoColumn>
-          </InfoRow>
+          <InfoRowPolicy imgStart={imgStart}>
+              <TextWrapperPrivacy>
+                <HeadingPrivacy lightText={lightText}>{headline}</HeadingPrivacy>
+                  <SubHeadingPrivacy lightTextDesc={lightTextDesc}>Cyrex Studios</SubHeadingPrivacy>
+                  <SubtitlePrivacy lightTextDesc={lightTextDesc}>{description1}</SubtitlePrivacy>
+                  <SubHeadingPrivacy lightTextDesc={lightTextDesc}>Information Collection and Use</SubHeadingPrivacy>
+                  <SubtitlePrivacy lightTextDesc={lightTextDesc}>{description2}</SubtitlePrivacy>
+                  <SubHeadingPrivacy lightTextDesc={lightTextDesc}>Third Party Access</SubHeadingPrivacy>
+                  <SubtitlePrivacy lightTextDesc={lightTextDesc}>{description3}</SubtitlePrivacy>
+                  <SubHeadingPrivacy lightTextDesc={lightTextDesc}>Opt-Out Rights</SubHeadingPrivacy>
+                  <SubtitlePrivacy lightTextDesc={lightTextDesc}>{description4}</SubtitlePrivacy>
+                  <SubHeadingPrivacy lightTextDesc={lightTextDesc}>Data Retention Policy</SubHeadingPrivacy>
+                  <SubtitlePrivacy lightTextDesc={lightTextDesc}>{description5}</SubtitlePrivacy>
+                  <SubHeadingPrivacy lightTextDesc={lightTextDesc}>Children</SubHeadingPrivacy>
+                  <SubtitlePrivacy lightTextDesc={lightTextDesc}>{description6}</SubtitlePrivacy>
+                  <SubHeadingPrivacy lightTextDesc={lightTextDesc}>Security</SubHeadingPrivacy>
+                  <SubtitlePrivacy lightTextDesc={lightTextDesc}>{description7}</SubtitlePrivacy>
+                  <SubHeadingPrivacy lightTextDesc={lightTextDesc}>Changes</SubHeadingPrivacy>
+                  <SubtitlePrivacy lightTextDesc={lightTextDesc}>{description8}</SubtitlePrivacy>
+                  <SubHeadingPrivacy lightTextDesc={lightTextDesc}>Your Consent</SubHeadingPrivacy>
+                  <SubtitlePrivacy lightTextDesc={lightTextDesc}>{description9}</SubtitlePrivacy>
+                  <SubHeadingPrivacy lightTextDesc={lightTextDesc}>Contact Us</SubHeadingPrivacy>
+                  <SubtitlePrivacy lightTextDesc={lightTextDesc}>{description10}</SubtitlePrivacy>
+              </TextWrapperPrivacy>
+          </InfoRowPolicy>
         </Conatainer>
       </InfoSec>
   );
