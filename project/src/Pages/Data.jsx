@@ -9,7 +9,7 @@ export const homeObjOne1 = {
   topLine: "Crafting Worlds, Shaping Adventures.",
   headline: "Elevating Mobile Gaming: Where Creativity Meets Excellence",
   description:
-    "We help game creators level up their success. Our team of expert developers and designers is here to bring your vision to life and achieve your gaming goals",
+    "We help game creators level up their success. Our team of expert developers and designers is here to bring your vision to life and achieve your gaming goals!",
   start: "",
   img: require("../Pages/images/dino.svg").default,
   alt: "Image",

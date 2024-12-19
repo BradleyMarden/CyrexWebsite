@@ -19,7 +19,8 @@ export const InfoSecTopImg = styled.div`
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #f7a721;
+    background-color: #ffc122;
+    
 `;
 export const InfoSecTopImg2 = styled.div`
     

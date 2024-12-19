@@ -14,8 +14,8 @@ export const Nav = styled.nav`
     box-shadow: 0px 1px 10px #343434;
     background-position: center center;
     background-repeat: no-repeat;
-    background: linear-gradient(-2deg, #ffc022, #ff8523);
-    // background-color: #ff7000;
+    //background: linear-gradient(-2deg, #ffc022, #ff8523);
+     background-color: #ffc122;
         //background-image: url(${img});
 `;
 
@@ -35,7 +35,7 @@ export const NavbarTitleCont = styled.div`
 export const NavbarTitle = styled.div`
     font-size: 1vw;
     padding-top: .21rem;
-    color: #dae4e8;
+    color: #26313b;
     font-weight: bolder;
     font-style: normal;
     width: fit-content;
@@ -45,7 +45,7 @@ export const NavbarTitle = styled.div`
 export const NavbarTitlePre =  styled.div`
     font-size: 1.15vw;
     padding-right: .1rem;
-    color: #dae4e8;
+    color: #26313b;
     font-weight: normal;
     font-style: normal;
     width: fit-content;
@@ -104,7 +104,7 @@ export const NavItem = styled.li`
   border-bottom: 2px solid transparent;
 
   &:hover {
-    border-bottom: 2px solid #4b59f7;
+    border-bottom: 2px solid #ff7000;
   }
 
   @media screen and (max-width:960px){
@@ -117,7 +117,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(Link)`
-  color: #fff;
+  color: #26313b;
   display: flex;
   align-items: center;
   text-decoration: none;
