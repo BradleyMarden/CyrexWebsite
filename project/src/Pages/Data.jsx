@@ -64,3 +64,20 @@ export const homeObjOne4 = {
   img: require("../Pages/images/text.png"),
   alt: "Image",
 };
+
+export const provPolicy = {
+  lightBg: true,
+  primary: false,
+  imgStart: "start",
+  lightTopLine: false,
+  lightText: false,
+  lightTextDesc: false,
+  buttonLabel: "Privacy Policy",
+  topLine: "Lorem ipsum dolor ",
+  headline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+  description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+  start: "true",
+  img: require("../Pages/images/text.png"),
+  alt: "Image",
+};
