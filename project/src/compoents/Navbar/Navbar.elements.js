@@ -33,8 +33,9 @@ export const NavbarTitleCont = styled.div`
     grid-auto-flow: column; /* Arrange items in a row */
 `;
 export const NavbarTitle = styled.div`
-    font-size: 1vw;
-    padding-top: .21rem;
+    font-size: 1.9rem;
+    padding-left: .1rem;
+    padding-top: .2rem;
     color: #26313b;
     font-weight: bolder;
     font-style: normal;
@@ -43,8 +44,7 @@ export const NavbarTitle = styled.div`
     
 `;
 export const NavbarTitlePre =  styled.div`
-    font-size: 1.15vw;
-    padding-right: .1rem;
+    font-size: 2rem;
     color: #26313b;
     font-weight: normal;
     font-style: normal;
