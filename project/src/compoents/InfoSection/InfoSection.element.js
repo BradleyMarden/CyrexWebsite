@@ -1,15 +1,34 @@
 import styled from "styled-components";
+import img from './../../Pages/images/bg.png';
+export const InfoSecTop = styled.div`
+    color: #fff;
+    padding: 160px 0;
+    background: ${({lightBg}) => (lightBg ? '#f7a721' : '#ffc122')};
+    box-shadow: 0px 0px 10px #2f2e2e;
+    position: relative;
+`;
+export const InfoSecTopImg = styled.div`
+    
+    color: #fff;
+    padding: 160px 0;
+    background: ${({lightBg}) => (lightBg ? '#f7a721' : '#dae4e8')};
+    box-shadow: 0px 0px 10px #2f2e2e;
+    position: relative;
+    background-image: url(${img});
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+`;
 export const InfoSec = styled.div`
     color: #fff;
     padding: 160px 0;
-    background: ${({lightBg}) => (lightBg ? '#f7a721' :'#dae4e8' )};
-
+    background: ${({lightBg}) => (lightBg ? '#fefae2' :'#dae4e8' )};
 `;
 
 export const InfoRow = styled.div`
   display: flex;
   margin: 0 -15px -15px -15px;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   align-items: center;
   flex-direction: ${({imgStart}) =>(imgStart ? 'row-reverse' : 'row')};
 
@@ -40,9 +59,9 @@ export const TextWrapper = styled.div`
         padding-bottom: 65px;
     }
 `;
-
+//26313b
 export const TopLine = styled.div`
-    color: ${({lightTopLine})=>(lightTopLine ? "#a9b3c1":"#4B59F7")};
+    color: ${({lightTopLine})=>(lightTopLine ? "#4e5860":"#26313b")};
     font-size:18px;
     line-height: 16px;
     letter-spacing:1.4px;
@@ -53,7 +72,7 @@ export const Heading = styled.h1`
     margin-bottom: 24px;
     font-size:40px;
     line-height: 1.1;
-    color:${({lightText})=>(lightText ? '#f7f8fa' : '#1c2237')};
+    color:${({lightText})=>(lightText ? '#26313b' : '#26313b')};
 
 
 `;
@@ -63,7 +82,7 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ lightTextDesc }) => (lightTextDesc ? "#a9b3c1" : "#1c2237")};
+  color: ${({ lightTextDesc }) => (lightTextDesc ? "#4e5860":"#26313b")};
 `;
 
 export const ImgWrapper = styled.div`

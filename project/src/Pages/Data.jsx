@@ -6,10 +6,10 @@ export const homeObjOne1 = {
   lightText: true,
   lightTextDesc: true,
   buttonLabel: "Get Started",
-  topLine: "Marketing Agency",
-  headline: "Lead Generation Specialist for Online Business",
+  topLine: "Crafting Worlds, Shaping Adventures.",
+  headline: "Elevating Mobile Gaming: Where Creativity Meets Excellence",
   description:
-    "We help business owners increase their revenue. Our team of unique specialist can help you acheive your business goals.",
+    "We help game creators level up their success. Our team of expert developers and designers is here to bring your vision to life and achieve your gaming goals",
   start: "",
   img: require("../Pages/images/dino.svg").default,
   alt: "Image",
@@ -23,12 +23,12 @@ export const homeObjOne2 = {
   lightText: false,
   lightTextDesc: false,
   buttonLabel: "Get Started",
-  topLine: "Marketing Agency",
-  headline: "Lead Generation Specialist for Online Business",
+  topLine: "Lorem ipsum dolor ",
+  headline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
   description:
-    "We help business owners increase their revenue. Our team of unique specialist can help you acheive your business goals.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
   start: "true",
-  img: require("../Pages/images/profile.jpg"),
+  img: require("../Pages/images/uk.png"),
   alt: "Image",
 };
 export const homeObjOne3 = {
@@ -39,12 +39,12 @@ export const homeObjOne3 = {
   lightText: true,
   lightTextDesc: true,
   buttonLabel: "Get Started",
-  topLine: "Marketing Agency",
-  headline: "Lead Generation Specialist for Online Business",
+  topLine: "Lorem ipsum dolor ",
+  headline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
   description:
-    "We help business owners increase their revenue. Our team of unique specialist can help you acheive your business goals.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
   start: "",
-  img: require("../Pages/images/svg-2.svg").default,
+  img: require("../Pages/images/bubsBig.png"),
   alt: "Image",
 };
 
@@ -56,11 +56,11 @@ export const homeObjOne4 = {
   lightText: false,
   lightTextDesc: false,
   buttonLabel: "Get Started",
-  topLine: "Marketing Agency",
-  headline: "Lead Generation Specialist for Online Business",
+  topLine: "Lorem ipsum dolor ",
+  headline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
   description:
-    "We help business owners increase their revenue. Our team of unique specialist can help you acheive your business goals.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
   start: "true",
-  img: require("../Pages/images/svg-3.svg").default,
+  img: require("../Pages/images/text.png"),
   alt: "Image",
 };

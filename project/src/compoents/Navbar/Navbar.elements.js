@@ -4,7 +4,7 @@ import {FaMagento} from "react-icons/fa"
 import {Link} from "react-router-dom"
 
 export const Nav = styled.nav`
-    background: #f5b715;
+    background: #F97432;
     height: 80px;
     font-size: 1.2rem;
     position: sticky;

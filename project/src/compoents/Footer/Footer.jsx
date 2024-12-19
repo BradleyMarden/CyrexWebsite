@@ -27,15 +27,16 @@ import {
   SocialIcons,
   SocialIconLink,
 } from "./Footer.elements";
+import {NavbarTitle, NavbarTitleCont, NavbarTitlePre} from "../Navbar/Navbar.elements";
 
 const Footer = () => {
   return (
     <FooterContainer>
       <FooterSubcription>
         <FooterSubHeading>
-          Join Our Exclusive Membership to Receive the Latest NEWS and TRENDS
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         </FooterSubHeading>
-        <FooterSubText>You Can Unsubscribe at any time.</FooterSubText>
+        <FooterSubText>Lorem ipsum dolor sit amet, consectetu</FooterSubText>
         <Form>
           <FormInput name="email" type="email" placeholder="Your Email" />
           <Button fontBig>Subscribe</Button>
@@ -79,11 +80,15 @@ const Footer = () => {
       </FooterLinksContainer>
       <SocialMedia>
         <SocialMediaWrap>
-          <SocialLogo to="/">
-            <SocialIcon />
-            ULTRA
-          </SocialLogo>
-          <WebsiteRights>ULTRA © 2020</WebsiteRights>
+          <NavbarTitleCont>
+            <NavbarTitlePre to="/">
+              Cyrex
+            </NavbarTitlePre>
+            <NavbarTitle to="/">
+              Studios
+            </NavbarTitle>
+          </NavbarTitleCont>
+          <WebsiteRights>cyrexstudios © 2024</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href="/" target="_blank" aria-label="Facebook">
               <FaFacebook />
@@ -93,7 +98,7 @@ const Footer = () => {
             </SocialIconLink>
             <SocialIconLink
               href={
-                "//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber"
+                "//www.youtube.com/channel/UCsDud-L3L3rQiJBPnPEZj9w?view_as=subscriber"
               }
               rel="noopener noreferrer"
               target="_blank"
