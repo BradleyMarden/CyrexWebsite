@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { Conatainer } from "../../GlobalStyles";
 import {FaMagento} from "react-icons/fa"
 import {Link} from "react-router-dom"
-import img from './../../Pages/images/TopoBG.png';
+import img from './../../Pages/images/TopoBG2.png';
 
 export const Nav = styled.nav`
     background: #F97432;
