@@ -3,15 +3,7 @@ import {Button, Conatainer} from "../../GlobalStyles";
 import { GiCrystalBars } from "react-icons/gi";
 import { GiCutDiamond, GiRock } from "react-icons/gi";
 import { IconContext } from "react-icons/lib";
-import {
-  Heading, Img,
-  ImgWrapper,
-  InfoColumn,
-  InfoRow, InfoSec,
-  Subtitle,
-  TextWrapper,
-  TopLine
-} from "../InfoSection/InfoSection.element";
+
 import {Link} from "react-router-dom";
 import {
   InfoSec,
@@ -23,9 +15,24 @@ import {
   Subtitle,
   ImgWrapper,
   Img, InfoSecTop,
-} from "./InfoSection.element";
+} from "./../InfoSection/InfoSection.element";
 
-function Pricing() {
+const PrivacyPolicySection = ({
+                   primary,
+                   lightBg,
+                   imgStart,
+                   lightTopLine,
+                   lightText,
+                   lightTextDesc,
+                   buttonLabel,
+                   topLine,
+                   headline,
+                   description,
+                   start,
+                   img,
+                   alt,
+                   size
+                 }) =>  {
   return (
       <InfoSec lightBg={lightBg}>
         <Conatainer>
@@ -52,4 +59,4 @@ function Pricing() {
       </InfoSec>
   );
 }
-export default Pricing;
+export default PrivacyPolicySection;

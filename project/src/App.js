@@ -10,8 +10,8 @@ import Navbar from "./compoents/Navbar/Navbar";
 import Home from "./Pages/HomePage/Home";
 import Services from "./Pages/Services/Services";
 import Products from "./Pages/Products/Products";
+import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import Footer from "./compoents/Footer/Footer";
-import PrivacyPolicy from "./compoents/PrivacyPolicy/PrivacyPolicy";
 import ScrollToTop from "./compoents/ScrollToTop";
 
 function App() {
