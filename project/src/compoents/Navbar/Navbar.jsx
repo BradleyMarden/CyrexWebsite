@@ -41,7 +41,7 @@ const Navbar = () => {
                 Cyrex
               </NavbarTitlePre>
               <NavbarTitle to="/">
-                Studios
+                STUDIOS
               </NavbarTitle>
             </NavbarTitleCont>
               
@@ -56,7 +56,7 @@ const Navbar = () => {
                 <NavLinks to="/services">Services</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/products">Products</NavLinks>
+                <NavLinks to="/PrivacyPolicy">PrivacyPolicy</NavLinks>
               </NavItem>
               <NavItemBtn>
                 {button ? (

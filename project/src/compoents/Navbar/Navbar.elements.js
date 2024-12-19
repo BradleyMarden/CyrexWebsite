@@ -2,6 +2,7 @@ import styled from "styled-components"
 import { Conatainer } from "../../GlobalStyles";
 import {FaMagento} from "react-icons/fa"
 import {Link} from "react-router-dom"
+import img from './../../Pages/images/TopoBG.png';
 
 export const Nav = styled.nav`
     background: #F97432;
@@ -11,6 +12,10 @@ export const Nav = styled.nav`
     top: 0;
     z-index: 999;
     box-shadow: 0px 3px 5px #626262;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #ff7000;
+    background-image: url(${img});
 `;
 
 export const NavbarContainer = styled(Conatainer)`
