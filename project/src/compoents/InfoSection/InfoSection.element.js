@@ -17,7 +17,7 @@ export const InfoSecTopImg = styled.div`
     background-image: url(${img});
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% 150%;
+    background-size: 100% auto;
     background-color: #f7a721;
 `;
 export const InfoSec = styled.div`
